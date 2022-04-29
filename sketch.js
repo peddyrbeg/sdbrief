@@ -21,15 +21,16 @@ function setup() {
 
 function draw() {
   background('#191919');
-  if (active === 0) {
+  if (active === -1) introText();
+  else if (active === 0) {
     earth(ear);
     causes();
   }
-  else if (active == 1) {
+  else if (active === 1) {
     briefReset();
     interview();
   }
-  else if (active == 2) {
+  else if (active === 2) {
     briefReset();
     clock();
   }
