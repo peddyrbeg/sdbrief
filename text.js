@@ -1,4 +1,16 @@
+let textI;
 let textB;
+
+function introText () {
+
+  fill(255);
+  textAlign(CENTER);
+  textSize(30);
+  text("GDE720 SERVICE DESIGN BRIEF", v.x, v.y-60);
+  textSize(20);
+  text("Click any tab.", v.x, v.y);
+
+}
 
 function textBar (a) {
   
