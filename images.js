@@ -85,6 +85,7 @@ function causes () {
   fill(255);
   const textPos = [920, 190];
   textSize(20);
+  textAlign(LEFT);
   text("inequality", textPos[0], textPos[1]);
   text("climate change", textPos[0], textPos[1] + 30);
   text("aid", textPos[0], textPos[1] + 60);
